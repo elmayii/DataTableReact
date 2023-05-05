@@ -137,12 +137,15 @@ function Tab ({rows}){
         },
         headCells: {
             style: {
+                minHeight: '100px',
                 paddingLeft: '8px', // override the cell padding for head cells
                 paddingRight: '8px',
+                
             },
         },
         cells: {
             style: {
+                minHeight: '100px',
                 paddingLeft: '8px', // override the cell padding for data cells
                 paddingRight: '8px',
             },

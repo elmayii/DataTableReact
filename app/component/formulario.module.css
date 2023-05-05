@@ -25,35 +25,34 @@
 .submit{
     width: 60%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10%;
     border: #49a09d;
     background: linear-gradient(45deg, #49a09d, #5f2c82);
     border: 1px solid white;
     box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
 }
 
+@media (max-width: 860px) {
+    .form{
+        height: 60%;
+        width: 60%;
+    }
+  
+    .div{
+        height: 100%;
+        width: 100%;
+    }
 
-/* border: none;
-      color: white;
-      padding: 16px 32px;
-      text-align: center;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      -webkit-transition-duration: 0.4s; /* Safari */
-      /*transition-duration: 0.4s;
-      cursor: pointer;
-      text-decoration: none;
-      text-transform: uppercase;
-}
-.btn1 {
-      
-}
+      @media(max-height:700px){
+        .form{
+            height: 70%;
+        }
+      }
+      @media (max-height: 600px) {
+        .form{
+            height: 85%;
+        }
+      }
+  }
 
-color: #0099CC;
-
-background: transparent;
-
-border: 2px solid #0099CC;
-
-border-radius: 6px; */
+  
