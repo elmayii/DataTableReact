@@ -34,7 +34,7 @@
 
 @media (max-width: 860px) {
     .form{
-        height: 60%;
+        height: 50%;
         width: 60%;
     }
   
@@ -43,16 +43,23 @@
         width: 100%;
     }
 
-      @media(max-height:700px){
+      @media(max-height:750px){
         .form{
-            height: 70%;
+            height: 60%;
         }
       }
+
       @media (max-height: 600px) {
         .form{
             height: 85%;
         }
       }
+  }
+
+  @media (max-width: 1000px){
+    .form{
+        height: min-content;
+    }
   }
 
   
